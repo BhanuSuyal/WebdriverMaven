@@ -25,6 +25,8 @@ public class LoginTest
 		driver.findElement(By.xpath("//*[@id='sbse2']/div[2]")).click();
 		Thread.sleep(2000L);
 		
+		driver.findElement(By.xpath("//*[@id='rso']/div[2]/div/div[2]/div/div/h3/a")).click();
+		
 	}
 	
 	@AfterTest
